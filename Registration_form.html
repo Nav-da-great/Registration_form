@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./reg_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class = "heading">
+        Registration Form
+    </div>
+    
+    <div class = "form-details">
+        <form>
+            <label for="nameInput" class = "input">Please enter your name <br>
+                <input type="text" class = "input" id = "name">
+            </label> 
+            
+
+            <p>Please select your domain</p>
+            <input type="radio"  id = "electrical">
+            <label for="electrical">Electrical</label> <br>
+
+            <input type="radio"  id = "computerScience">
+            <label for="computerScience">Computer Science</label> <br>
+
+            <input type="radio"  id = "webDev">
+            <label for="webDev">Web Development</label> <br>
+
+            <input type="radio"  id = "appDev">
+            <label for="appDev">App Development</label> <br>
+
+            <input type="radio"  id = "AIML">
+            <label for="AIML">AI/ML</label> <br>
+
+            <input type="radio"  id = "mechanical">
+            <label for="mechanical">Mechanical</label> <br>
+
+            <p>Please select the workshops you wish to register for</p>
+            <input type="checkbox"  id = "raspberrypi">
+            <label for="raspberrypi">Raspberry Pi Basics</label> <br>
+
+            <input type="checkbox"  id = "labview">
+            <label for="labview">LabVIEW</label> <br>
+
+            <input type="checkbox"  id = "flutter">
+            <label for="flutter">Introduction to Flutter</label> <br>
+
+            <input type="checkbox"  id = "bard">
+            <label for="bard">Integration of Google Bard in j-component</label> <br>
+
+            <input type="checkbox"  id = "solidoworks">
+            <label for="solidoworks">Hands-on session in SOLIDWORKS</label> <br>
+
+            <p style="margin-bottom: 0;">Please select your desired method of payment for your selected workshops</p>
+            <select name="payment" class = "dropdown" id="payment">
+                <option value="debitcard">Debit Card</option>
+                <option value="creditcard">Credit Card</option>
+                <option value="upi">UPI</option>
+
+            </select> 
+            <br>
+
+            <button type="submit" class="button" id="submitBtn">
+                SUBMIT
+            </button>
+        </form>
+
+    </div>
+</body>
+</html>
